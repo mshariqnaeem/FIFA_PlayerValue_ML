@@ -19,3 +19,14 @@ If we can answer these questions with our model, we could potentially start a st
 1.	Can we create a supervised learning model which provides us with information which players performance are closer to their actual market value?
 2.	Which statistical categories are most important in deciding performance of a player actually gives a certain player a higher value (is it speed, stamina, goal scoring etc.)?
 3.	BONUS QUESTION: Is a player worth their market value? Or is a player overpaid/underpaid based off of their performance?
+
+### Method of Communication
+
+
+
+### Use of Tableau
+
+
+
+### Usage of PostGres
+
