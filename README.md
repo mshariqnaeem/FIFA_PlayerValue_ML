@@ -4,11 +4,11 @@
 
 ### Selected Topic
 
-Machine Learning Question: Does the performance of a soccer player in a game depend on their market value (value_euro)?
+**Machine Learning Question:** Are certain player atributes in football more important in determining a players actual Market Value (value_euro)?    
 -	The Target variable for the machine learning model will be the Market Value of the player which is specified in the value_euro column of our dataset
 -	Our data source is a CSV file with 18000 rows of player information and 90 columns of different statistics and information
 
-Business Question/Solution: By analyzing athletes as sports analysts, can we advise teams on which players add most value to the team based on their performance in comparison to their market value?
+**Business Question/Solution:** By analyzing athletes as sports analysts, can we advise teams on which players add most value to the team based on their performance in comparison to their market value?
 
 ### Reason Why We Selected This Topic
 
