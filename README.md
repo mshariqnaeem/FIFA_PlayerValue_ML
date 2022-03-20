@@ -18,3 +18,4 @@ A chart of Player's Position brings attention to some data transformation that w
 That will lead us to categorize this column and proceed with our data Extract Transform and Load process.
 
 ![](Resources/Players_Overal_Rating.png)
+
