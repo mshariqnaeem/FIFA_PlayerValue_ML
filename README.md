@@ -14,3 +14,7 @@ Applying our knowledge of ETL process: extract the FIFA csv data from their resp
 .Create and use a SQL database.
 .Import Cleaned and designed ERD diagram tables into pgAdmin.
 .Perform joins queries to create new tables in pgAdmin.
+
+# Use the Quick Database Diagrams Tools
+
+The quick DB diagram tools was used the designing the ERB diagram.
