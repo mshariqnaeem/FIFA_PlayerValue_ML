@@ -1,7 +1,7 @@
 # Capstone_Group12
 ## Ability of Soccer players – Who is the best for their buck
 Soccer is the biggest sport in the world. Millions across the world spend time and money in the pursuit of it, whether it be watching it in coffee shops, playing recreationally at their local soccer club, or placing bets in the fantasy leagues. The big question that many larger soccer clubs often ask themselves, knowingly or not, is who best to let go, and who best to keep. This question while never easy, has been made easier by the efforts of our team. 
-
+# TEST dAVID
 ## Why this specific topic
 
 We understand at the end of the day, a team is only as good as its whole, and if a player is taking resources from the team that would be better be used elsewhere, then the whole team suffers. So, this brough us to the big question, does a player’s cost correlate to their performance. This is the main question that we will be asking, and using FIFA data, we will look at the cost of the player and compare their overall attributes. This is what we will look at in this analysis and create a machine learning model to judge whether or the pay really does correlate to performance, and if not, we can then present to the client recommendation on how best to optimize the performance of the team by adding or removing certain players.
