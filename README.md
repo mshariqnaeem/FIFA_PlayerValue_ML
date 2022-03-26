@@ -1,5 +1,5 @@
 # Capstone_Group12
-=======
+
 ## Ability of Soccer players – Who is the best for their buck
 Soccer is the biggest sport in the world. Millions across the world spend time and money in the pursuit of it, whether it be watching it in coffee shops, playing recreationally at their local soccer club, or placing bets in the fantasy leagues. The big question that many larger soccer clubs often ask themselves, knowingly or not, is who best to let go, and who best to keep. This question while never easy, has been made easier by the efforts of our team. 
 
