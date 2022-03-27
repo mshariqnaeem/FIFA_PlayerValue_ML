@@ -1,6 +1,6 @@
 # Capstone_Group12
 
-## Presentation
+## Mock-up Database
 
 ### Database Question: Does the performance of a soccer player depends on the market value(euro)
 
@@ -17,4 +17,5 @@ Applying our knowledge of ETL process: extract the FIFA csv data from their resp
 
 # Use the Quick Database Diagrams Tools
 
-The quick DB diagram tools was used the designing the ERB diagram.
+The quick DB diagram tool was used in the designing of the ERD diagram. These diagrams are subject to changes after review by the Stakeholders.
+![football_FIFA](https://github.com/mshariqnaeem/Capstone_Group12/tree/mock-up_database_analysis.football_FIFA.png)
