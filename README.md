@@ -1,5 +1,17 @@
 # Capstone_Group12
 
+
+## Presentation
+
+### Database Question: Does the performance of a soccer player depends on the market value(euro)
+
+Applying our knowledge of ETL process: extract the FIFA csv data from their respective files, transform the datasets by cleaning them up and joining them together, and load the cleaned dataset into a SQL database.We shall create entity relationship diagrams (ERDs), import data into a database, troubleshoot common errors, and create queries that use data to answer questions.
+
+#### Performing Exploratory Data Analysis on the data set.
+
+# Planning Schedule
+
+
 ## Ability of Soccer players – Who is the best for their buck
 Soccer is the biggest sport in the world. Millions across the world spend time and money in the pursuit of it, whether it be watching it in coffee shops, playing recreationally at their local soccer club, or placing bets in the fantasy leagues. The big question that many larger soccer clubs often ask themselves, knowingly or not, is who best to let go, and who best to keep. This question while never easy, has been made easier by the efforts of our team. 
 
@@ -69,15 +81,22 @@ We will be using **Tableau Public** as our visualization tool to create stories 
 We have also created a mock model of our Machine learning model which is displayed in the flowchart below.
 ![image](https://user-images.githubusercontent.com/92459399/159146718-8823b96e-c0d3-4d5b-9d08-c1e3e2e5bc79.png)
 
-=======
+
 ## Database 
 Applying our knowledge of ETL process: extract the FIFA csv data from their respective files, transform the datasets by cleaning them up and joining them together, and load the cleaned dataset into a SQL database.We shall create entity relationship diagrams (ERDs), import data into a database, troubleshoot common errors, and create queries that use data to answer questions.
 
 ### Planning Schedule
+
 .Design an ERD that will apply to the data.
 .Create and use a SQL database.
 .Import Cleaned and designed ERD diagram tables into pgAdmin.
 .Perform joins queries to create new tables in pgAdmin.
+
+
+# Use the Quick Database Diagrams Tools
+
+The quick DB diagram tools was used the designing the ERB diagram.
+
 ![](Resources/FootballFifa.png)
 
 ## Machine Learning 
