@@ -18,4 +18,4 @@ Applying our knowledge of ETL process: extract the FIFA csv data from their resp
 # Use the Quick Database Diagrams Tools
 
 The quick DB diagram tool was used in the designing of the ERD diagram. These diagrams are subject to changes after review by the Stakeholders.
-![football_FIFA](https://github.com/mshariqnaeem/Capstone_Group12/tree/mock-up_database_analysis.football_FIFA.png)
+![football_FIFA](https://github.com/mshariqnaeem/Capstone_Group12/tree/mock-up_database_analysis.football_FIFA.png
