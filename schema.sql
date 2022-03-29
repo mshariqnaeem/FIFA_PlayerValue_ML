@@ -20,8 +20,8 @@ CREATE TABLE Soccer_Players (
 );
 
 
--- Create Soccer_Skills table
-CREATE TABLE Soccer_Players (
+-- Create table Soccer_Skills table
+CREATE TABLE Soccer_Skills (
 Play_Id int NOT NULL,
 Posn_Id int NOT NULL,
 Skill_id int NOT NULL,
@@ -46,19 +46,35 @@ Stamina int,
 Strength int,
 Long_Shots int,
 Aggression int,
+Interceptions int,
+Positioning int,
+Vision int,
+Penalties int,
+composture int,
+Marking int,
+Standing_Tackle int,
+Sliding_Tackle int,
+Gk_Diving int,
+Gk_Handling int
+Gk_Kicking int,
+Gk_Positioning int,
+Gk_Reflexes int,
+
    FOREIGN KEY (Play_Id) REFERENCES Soccer_Players (Play_Id),
    FOREIGN KEY (Posn_Id) REFERENCES Soccer_Pitch_Positions (Posn_Id),
       PRIMARY KEY (Skill_id)
       
 );
 
+-- Create table National_Soccer_Team
 CREATE TABLE National_Soccer_team (
   Ntn_no int NOT NULL,
   Club_no int NOT NULL,
   Play_Id int Not NULL,
   National_Soccer_team varchar(25) 
- PRIMARY KEY 
-     
+FOREIGN KEY (Club_no) REFERENCES Club_Soccer_Team (Club_no),
+     PRIMARY KEY (Ntn_no),
+     UNIQUE (National_Soccer_team)
 );
 
 -- Create table Club_Soccer_Team
