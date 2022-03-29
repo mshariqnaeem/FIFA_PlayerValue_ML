@@ -79,7 +79,8 @@ FOREIGN KEY (Club_no) REFERENCES Club_Soccer_Team (Club_no),
 
 -- Create table Club_Soccer_Team
 CREATE TABLE Club_Soccer_Team (
-Club_no int, 
+Club_no int, Schema.sql file?
+
 Play_Id int,
 Club_Team varchar,
 
@@ -118,7 +119,7 @@ Lcb int,
 Cb int,
 Rcb int,
 Rb int,
-Original_Position varchar,
+Original_Position varchar(30),
  FOREIGN KEY (Play_Id) REFERENCES Soccer_Players (Play_Id),
      PRIMARY KEY (Posn_Id)
      
