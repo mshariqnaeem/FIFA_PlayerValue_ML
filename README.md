@@ -1,12 +1,26 @@
 # Capstone_Group12
+
+
+## Presentation
+
+### Database Question: Does the performance of a soccer player depends on the market value(euro)
+
+Applying our knowledge of ETL process: extract the FIFA csv data from their respective files, transform the datasets by cleaning them up and joining them together, and load the cleaned dataset into a SQL database.We shall create entity relationship diagrams (ERDs), import data into a database, troubleshoot common errors, and create queries that use data to answer questions.
+
+#### Performing Exploratory Data Analysis on the data set.
+
+# Planning Schedule
+
+
 ## Ability of Soccer players – Who is the best for their buck
 Soccer is the biggest sport in the world. Millions across the world spend time and money in the pursuit of it, whether it be watching it in coffee shops, playing recreationally at their local soccer club, or placing bets in the fantasy leagues. The big question that many larger soccer clubs often ask themselves, knowingly or not, is who best to let go, and who best to keep. This question while never easy, has been made easier by the efforts of our team. 
-# TEST dAVID
+
 ## Why this specific topic
 
 We understand at the end of the day, a team is only as good as its whole, and if a player is taking resources from the team that would be better be used elsewhere, then the whole team suffers. So, this brough us to the big question, does a player’s cost correlate to their performance. This is the main question that we will be asking, and using FIFA data, we will look at the cost of the player and compare their overall attributes. This is what we will look at in this analysis and create a machine learning model to judge whether or the pay really does correlate to performance, and if not, we can then present to the client recommendation on how best to optimize the performance of the team by adding or removing certain players.
 
 This is of interest for many parties, key of those as previously mentioned, are these large football clubs. Expense can be easily upwards of 200k a year for a single player, and these expenses just like another business expense must be mitigated whenever possible. This is where our program will come it. With our dataset of FIFA players, we will target our variables of interest and create a data-frame out of them. This will then be place on a server, then from their fed into our machine learning algorithm who will parse through the data and generate expected values and compare them to real values. Our null hypothesis would be that there is no correlation between earnings and performance on the field. Our alternative hypothesis would be that there is a correlation, and by using figures we can determine whether or not that correlation is positive or negative. 
+
 
 ## Presentation
 
@@ -32,14 +46,57 @@ If we can answer these questions with our model, we could potentially start a st
 2.	Which statistical categories are most important in deciding performance of a player actually gives a certain player a higher value (is it speed, stamina, goal scoring etc.)?
 3.	BONUS QUESTION: Is a player worth their market value? Or is a player overpaid/underpaid based off of their performance?
 
+
+### Method of Communication
+
+We will be using 2 main communication methods throughout this project. We have decided to use both Discord to attend meetings to discuss our progress in an agile and Waterfall environment. This will allow us to adapt to any changes throughout the project lifecycle while also managing to follow a linear project path as is typical in a traditional Waterfall methodology. We plan to do this by holding daily meetings to discuss the progress of the project as a whole and if anyone is experiencing any issues, and if there is an issue it can be addressed immediately vs putting the whole project and the rest of the group members on hold until that aspect is completed.
+
+We chose Discord as our method of communication as it allows flexibility to open different channels to post content and manage communications through various breakout channels and groups. Discord also allows for different methods of communication and file sharing and is easily accessible by anyone who is part of the group. We will also be using Slack to communicate any issues that we are experiencing throughout the project with our **Assistant Instructor David Quispe**.
+
+### Use of Tableau
+
+We will be using Tableau throughout this machine learning model to create stories through visualizations. We will display these visualizations through various different means (bar charts, scatter plots, line charts etc.) to show different statistics and how they are relevant in determining the market value of a player.
+
+After we have completed some data cleaning and tranformaiton we can make interpretations on which categories of statistics are most important to a players value through positive correlations. We understand that their may be outliers in our dataset which we will have to take into consideration and complete further analysis by dividing the players by positions, as not all players will have equal values in specific categories.
+
+Below is an image of a Tableau bar chart of players overal rating as per the FIFA ratings. This is just an example of the types of visualizations that we can create with tableau.
+
+![Players_Overal_Rating](https://user-images.githubusercontent.com/92459399/159146151-b03ba6a5-c4dc-4009-bcd2-ada13ba8c3ee.png)
+
+### Usage of PostGres
+
+Using the knowledge that we have learned regarding the ETL process, we will extract data from the CSV file **fifa_cleaned_initial.csv** (which is included below), transform the dataset by cleaning the data into a more readible and analyzable format, and load the cleaned dataset int an SQL dtaase. Using PostGres we shall create ERD's, import data into the database, and create queries to answer questions from our data.
+
+[fifa_cleaned_initial.csv](https://github.com/mshariqnaeem/Capstone_Group12/files/8310532/fifa_cleaned_initial.csv)
+
+
+### Resources Used
+
+We will be using many tools including **Git and Github** to manage version control of our code and project progress. This allows us to return to any previous commits if there has been any issue throughout the project.
+
+We will be using **Tableau Public** as our visualization tool to create stories to display the correlation of the data analyzed.
+
+### Machine Learning Flowchart
+
+We have also created a mock model of our Machine learning model which is displayed in the flowchart below.
+![image](https://user-images.githubusercontent.com/92459399/159146718-8823b96e-c0d3-4d5b-9d08-c1e3e2e5bc79.png)
+
+
 ## Database 
 Applying our knowledge of ETL process: extract the FIFA csv data from their respective files, transform the datasets by cleaning them up and joining them together, and load the cleaned dataset into a SQL database.We shall create entity relationship diagrams (ERDs), import data into a database, troubleshoot common errors, and create queries that use data to answer questions.
 
 ### Planning Schedule
+
 .Design an ERD that will apply to the data.
 .Create and use a SQL database.
 .Import Cleaned and designed ERD diagram tables into pgAdmin.
 .Perform joins queries to create new tables in pgAdmin.
+
+
+# Use the Quick Database Diagrams Tools
+
+The quick DB diagram tools was used the designing the ERB diagram.
+
 ![](Resources/FootballFifa.png)
 
 ## Machine Learning 
@@ -75,3 +132,4 @@ One of the key requirements in any successful project is a team which communicat
 
 ## In Closing
 We know that with a well laid plan, we can achieve the desired goal on time, and get the answers to the stack holders. Putting together machine learning, thoughtful insights, story driven data, and a well-organized team, we know that we will be able to deliver on our goal, of finding what indicators to look for, to find the true monetary value of a player.
+
