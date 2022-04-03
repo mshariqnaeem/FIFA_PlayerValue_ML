@@ -58,61 +58,61 @@ Gk_Reflexes int,
       
 );
 
--- Create table National_Soccer_Team
-CREATE TABLE National_Soccer_team (
-  Ntn_no int NOT NULL,
-  Club_no int NOT NULL,
-  Play_Id int Not NULL,
-  National_Soccer_team varchar(25) 
-FOREIGN KEY (Club_no) REFERENCES Club_Soccer_Team (Club_no),
-     PRIMARY KEY (Ntn_no),
-     UNIQUE (National_Soccer_team)
-);
+-- -- Create table National_Soccer_Team
+-- CREATE TABLE National_Soccer_team (
+--   Ntn_no int NOT NULL,
+--   Club_no int NOT NULL,
+--   Play_Id int Not NULL,
+--   National_Soccer_team varchar(25) 
+-- FOREIGN KEY (Club_no) REFERENCES Club_Soccer_Team (Club_no),
+--      PRIMARY KEY (Ntn_no),
+--      UNIQUE (National_Soccer_team)
+-- );
 
--- Create table Club_Soccer_Team
-CREATE TABLE Club_Soccer_Team (
-Club_no int, Schema.sql file?
+-- -- Create table Club_Soccer_Team
+-- CREATE TABLE Club_Soccer_Team (
+-- Club_no int, Schema.sql file?
 
-Play_Id int,
-Club_Team varchar,
+-- Play_Id int,
+-- Club_Team varchar,
 
- FOREIGN KEY (Play_Id) REFERENCES Soccer_Players (Play_Id),
-     PRIMARY KEY (Club_no),
-     UNIQUE (Club_Team)
-);
+--  FOREIGN KEY (Play_Id) REFERENCES Soccer_Players (Play_Id),
+--      PRIMARY KEY (Club_no),
+--      UNIQUE (Club_Team)
+-- );
 
--- Create table Soccer_Pitch_Positions
-CREATE TABLE Soccer_Pitch_Positions (
-Play_Id int, 
-Posn_Id int ,
-Ls int,
-St int,
-Rs int,
-Lw int,	
-Lf int,	
-Cf int,	
-Rf int,	
-Rw int,	 
-Lam int,	
-Cam int,
-Ram int,
-Lm int,
-Lcm int,
-Cm int,
-Rcm int,
-Rm int,
-Lwb int,
-Ldm int,
-Cdm int,
-Rdm int,
-Rwb int,
-Lb int,
-Lcb int,
-Cb int,
-Rcb int,
-Rb int,
-Original_Position varchar(30),
- FOREIGN KEY (Play_Id) REFERENCES Soccer_Players (Play_Id),
-     PRIMARY KEY (Posn_Id)
+-- -- Create table Soccer_Pitch_Positions
+-- CREATE TABLE Soccer_Pitch_Positions (
+-- Play_Id int, 
+-- Posn_Id int ,
+-- Ls int,
+-- St int,
+-- Rs int,
+-- Lw int,	
+-- Lf int,	
+-- Cf int,	
+-- Rf int,	
+-- Rw int,	 
+-- Lam int,	
+-- Cam int,
+-- Ram int,
+-- Lm int,
+-- Lcm int,
+-- Cm int,
+-- Rcm int,
+-- Rm int,
+-- Lwb int,
+-- Ldm int,
+-- Cdm int,
+-- Rdm int,
+-- Rwb int,
+-- Lb int,
+-- Lcb int,
+-- Cb int,
+-- Rcb int,
+-- Rb int,
+-- Original_Position varchar(30),
+--  FOREIGN KEY (Play_Id) REFERENCES Soccer_Players (Play_Id),
+--      PRIMARY KEY (Posn_Id)
      
-);
+-- );
