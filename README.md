@@ -159,6 +159,14 @@ From here, with a better handle on the structure of our data, we pushed forward 
 Another Machine Learning model is our clustered data. From a simple attempt to see if it would generate some interesting findings, this model has come back with some very promising features. After some attempts, it came back with four very well-defined clusters of data points. While still in the early stages of analysis we are eager to see what we can learn from this to present to the stack holders.
 While our current models are not complete, they are all showing promising results. We know after some more alterations and tweaking we will be able to come backing with some grasping insights into the data, as well as actionable outlooks
 
+## Dashboard
+
+We have included the link to our google slides presentation of our dashboard below. We will be using Tableau to form interactive elements and create our dashboard as we found that there is a way to connect a database and machine learning model to pull data into Tableau, from which we can pull our data and create a simple interface for end-users to access the information they require from a preset up interactive menu which we will further develop with the progression of our project.
+
+We have included the Google Slides link below and also have included a copy of the presentation in PPT format in our Dashboards folder on Github.
+
+https://docs.google.com/presentation/d/1yKwIa9QqO8fjDFDkO8IffPck5ieb2ZayTHQYr9WRYRc/edit?usp=sharing
+
 ## Week Two in Closing
 
 We have all made steady and consistent progress on our portions of the project. Already at this stage we have uncovered many interesting features we are eager to present as we polish them into something that is clearer. As work marches on we have all contributed much time and effort into making sure that all the stake holders will be satisfied in the results, as we are confident that our final product will deliver in what our design goals outlined. 
