@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fifa Player Value Predictor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body background="C:/Users/Sydney Kieswetter/Class/Capstone_Group12/Images/Fifa_Banner.jpg">
+ 
+    <div class="container" style="background-color: rgba(248, 4, 4, 0);">
+        <div class="row">
+          <div class="col-md-12 jumbotron text-center">
+            <h1>Fifa Player Value Predictor</h1>
+            <p>Capstone Project: Group 12</p>
+          </div>
+        </div>
+        <div class="row" style="background-color: rgba(248, 4, 4, 0);">
+          <div class="col-md-2">
+            <div class="well">
+              <!-- first drop down -->
+              <label for="Age"> Players Age: </label>
+              <select name = "age" id="age">
+                <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option>
+
+              </select>
+            </div>
+            
+          
+
+
+            <div class="well">
+                <h5>Positioning</h5>
+                <!-- <select id="selDataset"></select> this is what creates the dropdown menu, and the select tag below makes it a dynamic drop down-->
+                <select id="selDataset" onchange="optionChanged(this.value)"></select>
+              </div>
+           </div>
+            
+          <div class="col-md-2">
+            <div class="well">
+                <h5>Sliding Tackle</h5>
+                <!-- <select id="selDataset"></select> this is what creates the dropdown menu, and the select tag below makes it a dynamic drop down-->
+                <select id="selDataset" onchange="optionChanged(this.value)"></select>
+            </div>
+            <div class="well">
+              <h5>Curve</h5>
+              <!-- <select id="selDataset"></select> this is what creates the dropdown menu, and the select tag below makes it a dynamic drop down-->
+              <select id="selDataset" onchange="optionChanged(this.value)"></select>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="well">
+                <h5>Agility</h5>
+                <!-- <select id="selDataset"></select> this is what creates the dropdown menu, and the select tag below makes it a dynamic drop down-->
+                <select id="selDataset" onchange="optionChanged(this.value)"></select>
+            </div>
+            <div class="well">
+              <h5>Crossing</h5>
+              <!-- <select id="selDataset"></select> this is what creates the dropdown menu, and the select tag below makes it a dynamic drop down-->
+              <select id="selDataset" onchange="optionChanged(this.value)"></select>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="well">
+                <h5>Short Passing</h5>
+                <!-- <select id="selDataset"></select> this is what creates the dropdown menu, and the select tag below makes it a dynamic drop down-->
+                <select id="selDataset" onchange="optionChanged(this.value)"></select>
+            </div>
+            <div class="well">
+              <h5>Freekick Accuracy</h5>
+              <!-- <select id="selDataset"></select> this is what creates the dropdown menu, and the select tag below makes it a dynamic drop down-->
+              <select id="selDataset" onchange="optionChanged(this.value)"></select>
+          </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="well">
+                <h5>Interceptions</h5>
+                <!-- <select id="selDataset"></select> this is what creates the dropdown menu, and the select tag below makes it a dynamic drop down-->
+                <select id="selDataset" onchange="optionChanged(this.value)"></select>
+            </div>
+            <div class="well">
+              <!-- NOT DONE YET Add a button to clear attributes scraping script -->
+              <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Run Model</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="well">
+                <h5>Jumping</h5>
+                <!-- <select id="selDataset"></select> this is what creates the dropdown menu, and the select tag below makes it a dynamic drop down-->
+                <select id="selDataset" onchange="optionChanged(this.value)"></select>
+            </div>
+            <div>
+                <!-- NOT DONE YET Add a button to clear attributes scraping script -->
+                <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Clear Inputs</a></p>
+            </div>
+          </div>         
+          </div>
+        
+
+        <div class="row">
+            <div class="col-md-12 jumbotron text-center">
+              <h2>Player's Predicted Value</h2>
+              <p>Based on the inputs entered above it is predicted that a player with these attributes, skills and characteristics should be valued at:</p>
+              <p> $ Machine Learning Output Values Goes Here $</p>
+            </div>
+            
+        </div>
+
+        <div class="col-md-12">
+            <h3 style="color:rgb(248, 248, 248)" > Find the link to our Tableau Story below to compare these results to analytics of current Fifa players </h3>
+            <p style="color:rgb(248, 248, 248)">Link here/ make a button?</p>
+        </div>
+
+        <div class="row" style="background-color: rgba(248, 248, 248, 0);">
+            <div class="col-md-5">
+              <div id="bar"></div>
+              <p style="color:rgb(248, 248, 248)" >Put a graph here use Plotly</p>
+            </div>
+            <div class="col-md-5">
+              <div id="gauge"></div>
+              <p style="color:rgb(248, 248, 248)" >Put a graph here use Plotly</p>
+            </div>
+        </div>
+
+        </div>
+   
+       <script src="app.js"></script>
+</body>
+</html>
+
