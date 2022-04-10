@@ -1,7 +1,7 @@
-d3.csv("interface.csv").then(function (data){
+d3.csv("front_end.csv").then(function (data){
     // this variable is the CSV
     var fifa=data;
-    console.log(fifa)
+   
     // button variable 
     var button=d3.select("#button");
     // form variable 
@@ -23,12 +23,19 @@ d3.csv("interface.csv").then(function (data){
         // populate table 
         for (var i=0; i<filteredPlayers.length; i++){
             d3.select("tbody").insert("tr").html(
-                "<td>"+(filteredPlayers[i]['Name'])+"</td>"+
+                "<td>"+(filteredPlayers[i]['Player_Name'])+"</td>"+
+                "<td>"+(filteredPlayers[i]['Value_Euro'])+"</td>"+
+                "<td>"+(filteredPlayers[i]['Predicted_Value_Euro'])+"</td>"+
                 "<td>"+(filteredPlayers[i]['Age'])+"</td>"+
                 "<td>"+(filteredPlayers[i]['Sliding'])+"</td>"+
                 "<td>"+(filteredPlayers[i]['Agility'])+"</td>"+
                 "<td>"+(filteredPlayers[i]['Short_Passing'])+"</td>"+
-                "<td>"+(filteredPlayers[i]['Interceptions'])+"</td>"
+                "<td>"+(filteredPlayers[i]['Interceptions'])+"</td>"+
+                "<td>"+(filteredPlayers[i]['Jumping'])+"</td>"+
+                "<td>"+(filteredPlayers[i]['Positioning'])+"</td>"+
+                "<td>"+(filteredPlayers[i]['Curve'])+"</td>"+
+                "<td>"+(filteredPlayers[i]['Crossing'])+"</td>"+
+                "<td>"+(filteredPlayers[i]['Freekick_Accuracy'])+"</td>"
             )
         }
 
