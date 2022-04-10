@@ -8,5 +8,8 @@ SELECT COUNT(fc.Player_Id), Player_Name
 FROM fifa_cleaned as fc
 LEFT JOIN modified_fifa_data as mf
 ON fc.Player_Id = mf.Player_Id
-GROUP BY mf.Player_Name;
+GROUP BY mf.Player_Name
+ORDER BY mf.dept_no;
 
+
+ALTER TABLE fifa_cleaned RENAME id TO Player_Id;
