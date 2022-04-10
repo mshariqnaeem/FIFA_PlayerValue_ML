@@ -1,4 +1,5 @@
 -- Creating tables for FIFASoccerDB
+-- Create table Soccer_Players table
 CREATE TABLE Soccer_Players (
   Play_Id int NOT NULL,
 	Age int,
@@ -9,6 +10,7 @@ CREATE TABLE Soccer_Players (
 	Value_Euro float
 	International_Reputation_1_5 int,
 	Skill_Moves_1_5  int,
+  FOREIGN KEY (Skill_id) REFERENCES Soccer_Skills(Skills_id),
 	   PRIMARY KEY (Play_Id),
      UNIQUE (Player_name)
 );
