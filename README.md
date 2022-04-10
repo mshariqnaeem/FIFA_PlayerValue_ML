@@ -8,6 +8,9 @@
 
 Applying our knowledge of ETL process: extract the FIFA csv data from their respective files, transform the datasets by cleaning them up and joining them together, and load the cleaned dataset into a SQL database.We shall create entity relationship diagrams (ERDs), import data into a database, troubleshoot common errors, and create queries that use data to answer questions.
 
+[Fifa Player Value ML Analysis Presentation.pptx](https://github.com/mshariqnaeem/FIFA_PlayerValue_ML/files/8459545/Fifa.Player.Value.ML.Analysis.Presentation.pptx)
+
+
 #### Performing Exploratory Data Analysis on the data set.
 
 # Planning Schedule
