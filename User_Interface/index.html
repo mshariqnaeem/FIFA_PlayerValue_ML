@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction of Fifa Player Values</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class ="row">
+            <div class="col-md-12 jumbotron text-center">
+                <h1 class=>Find A Player's Value</h1>
+                <h4 class=>Please enter the players first initial, period, last name i.e.) L. Messi.</h4>
+                <!-- Input-->
+                <form id="form">
+                    <input class="form-control" id="user-input" placeholder="Enter Players Name">
+                    <button id="button" class="btn btn-secondary" style="font-size:x-large">Click Here To See Results!</button>
+                </form>
+
+                <!--Output-->
+                <table class="table" cellpadding="10">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Value (Euro)</th>
+                            <th scope="col">Predicted Value (Euro)</th>
+                            <th scope="col">Age</th>
+                            <th scope="col">Sliding Tackle</th>
+                            <th scope="col">Agility</th>
+                            <th scope="col">Short Passing</th>
+                            <th scope="col">Interceptions</th>
+                            <th scope="col">Jumping</th>
+                            <th scope="col">Positioning</th>
+                            <th scope="col">Curve</th>
+                            <th scope="col">Crossing</th>
+                            <th scope="col">Freekick Accuracy</th>
+                        </tr>
+                    </thead>
+                <tbody>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-12">
+                <p style="font-size:small">Using a machine learning module our team analyzsed over 17 thousand fifa football players on over 30 attributes, skills and preformance metrics to predict thier market value in euros and compare to their actual sallary. For further visualizations and exploration of player statistics please click the button below to go to our Tableau.</p>
+                <a href="https://public.tableau.com/app/profile/marcio.roberto.ciano/viz/FinalProject_16475719332950/Dashboard2?publish=yes"><button> Tableau</button></a>
+            </div>
+    </div>
+    
+</body>
+</html>
