@@ -177,3 +177,30 @@ https://docs.google.com/presentation/d/1yKwIa9QqO8fjDFDkO8IffPck5ieb2ZayTHQYr9WR
 
 We have all made steady and consistent progress on our portions of the project. Already at this stage we have uncovered many interesting features we are eager to present as we polish them into something that is clearer. As work marches on we have all contributed much time and effort into making sure that all the stake holders will be satisfied in the results, as we are confident that our final product will deliver in what our design goals outlined. 
 We know that with a well laid plan, we can achieve the desired goal on time, and get the answers to the stack holders. Putting together machine learning, thoughtful insights, story driven data, and a well-organized team, we know that we will be able to deliver on our goal, of finding what indicators to look for, to find the true monetary value of a player.
+
+
+Structure for final read me- for your heading you may be able to repurpose already written content, have to create your own, and get screenshots/ add images: 
+# Introduction- done/ repurpose- Shariq
+## What is our topic and why we chose 
+## Questions we aim to answer- and business relation 
+## Where we got data- link to resources folder 
+## The systems we used- down to the programming languages 
+
+# ETL process and exploration/ analysis on tableau- already written- Marcio
+
+# Database- need an updated ERD with- raw, cleaned, ML, front- olu
+
+# Machine learning- redo the machine learning portion- give the backstory of what we did.- Ryan 
+## Base model and touch on all the different models we made- we put a lot of work into that 
+Other Machine Learning points we need to touch on: 
+•	Feature Engineering and Selection
+•	How was the data split into training and testing
+•	Why we chose the model
+•	Base model
+•	How the model was trained
+•	Accuracy score
+•	Findings- What we learned from the ML model- in short for basic player their skills ability and attributes are a strong indicator of their value. In our ML model we took the log of the values therefore standardising our outliers, and interestingly their skills and abilities were not a good indicator of value when we took the difference between their predicted value and value. Most likely because of not quantifiable attributes like reputation, prestige, and non game related things like branding.
+
+# Dashboard- we have the tableau done, needs to write about the HTML and JS- Sydney
+
+# Communication protocol- Done 
