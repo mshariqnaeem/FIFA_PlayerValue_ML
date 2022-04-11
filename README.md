@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-
 # FIFA_PlayerValue_ML - First Segment Project Deliverable 
-=======
-<<<<<<< HEAD
-# Capstone_Group12
-=======
-
-# FIFA_PlayerValue_ML - First Segment Project Deliverable 
->>>>>>> 199d140599939bbe478d243fd91aab30b13e28e4
->>>>>>> Femi_final_sqldatabase
 
 
 ## Presentation
@@ -17,29 +7,13 @@
 
 Applying our knowledge of ETL process: extract the FIFA csv data from their respective files, transform the datasets by cleaning them up and joining them together, and load the cleaned dataset into a SQL database.We shall create entity relationship diagrams (ERDs), import data into a database, troubleshoot common errors, and create queries that use data to answer questions.
 
-<<<<<<< HEAD
-[Fifa Player Value ML Analysis Presentation.pptx](https://github.com/mshariqnaeem/FIFA_PlayerValue_ML/files/8459545/Fifa.Player.Value.ML.Analysis.Presentation.pptx)
+[Fifa Player Value ML Analysis Presentation.pptx](https://github.com/mshariqnaeem/FIFA_PlayerValue_ML/files/8460848/Fifa.Player.Value.ML.Analysis.Presentation.pptx)
 
 
-=======
-<<<<<<< HEAD
-=======
-[Fifa Player Value ML Analysis Presentation.pptx](https://github.com/mshariqnaeem/FIFA_PlayerValue_ML/files/8459545/Fifa.Player.Value.ML.Analysis.Presentation.pptx)
-
-
->>>>>>> 199d140599939bbe478d243fd91aab30b13e28e4
->>>>>>> Femi_final_sqldatabase
 #### Performing Exploratory Data Analysis on the data set.
 
 # Planning Schedule
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 199d140599939bbe478d243fd91aab30b13e28e4
->>>>>>> Femi_final_sqldatabase
 ## Ability of Soccer players – Who is the best for their buck
 Soccer is the biggest sport in the world. Millions across the world spend time and money in the pursuit of it, whether it be watching it in coffee shops, playing recreationally at their local soccer club, or placing bets in the fantasy leagues. The big question that many larger soccer clubs often ask themselves, knowingly or not, is who best to let go, and who best to keep. This question while never easy, has been made easier by the efforts of our team. 
 
@@ -49,15 +23,12 @@ We understand at the end of the day, a team is only as good as its whole, and if
 
 This is of interest for many parties, key of those as previously mentioned, are these large football clubs. Expense can be easily upwards of 200k a year for a single player, and these expenses just like another business expense must be mitigated whenever possible. This is where our program will come it. With our dataset of FIFA players, we will target our variables of interest and create a data-frame out of them. This will then be place on a server, then from their fed into our machine learning algorithm who will parse through the data and generate expected values and compare them to real values. Our null hypothesis would be that there is no correlation between earnings and performance on the field. Our alternative hypothesis would be that there is a correlation, and by using figures we can determine whether or not that correlation is positive or negative. 
 
+## Data Exploration 
 
-<<<<<<< HEAD
+While analyzing the original dataset we noticed that much of the data was in formats which would be unreadable by our machine learning model and would not be understandable by stakeholders to whom our final presentation of our results would be made. There were duplicate columns which would be redundant to our model and to our analysis, there were columns which certain players were being measured against when they did not play those positions (ex. a forward being measured with goalkeeper statistics).
 
-=======
-<<<<<<< HEAD
-=======
+These are some of the issues we came across in the original exploratory phase where we decided which columns and pieces of data we would need to remove for our machine learning model to work properly. 
 
->>>>>>> 199d140599939bbe478d243fd91aab30b13e28e4
->>>>>>> Femi_final_sqldatabase
 ## Presentation
 
 ### Selected Topic
@@ -82,13 +53,6 @@ If we can answer these questions with our model, we could potentially start a st
 2.	Which statistical categories are most important in deciding performance of a player actually gives a certain player a higher value (is it speed, stamina, goal scoring etc.)?
 3.	BONUS QUESTION: Is a player worth their market value? Or is a player overpaid/underpaid based off of their performance?
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 199d140599939bbe478d243fd91aab30b13e28e4
->>>>>>> Femi_final_sqldatabase
 ### Method of Communication
 
 We will be using 2 main communication methods throughout this project. We have decided to use both Discord to attend meetings to discuss our progress in an agile and Waterfall environment. This will allow us to adapt to any changes throughout the project lifecycle while also managing to follow a linear project path as is typical in a traditional Waterfall methodology. We plan to do this by holding daily meetings to discuss the progress of the project as a whole and if anyone is experiencing any issues, and if there is an issue it can be addressed immediately vs putting the whole project and the rest of the group members on hold until that aspect is completed.
@@ -124,51 +88,23 @@ We have also created a mock model of our Machine learning model which is display
 ![image](https://user-images.githubusercontent.com/92459399/159146718-8823b96e-c0d3-4d5b-9d08-c1e3e2e5bc79.png)
 
 
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> 199d140599939bbe478d243fd91aab30b13e28e4
->>>>>>> Femi_final_sqldatabase
 ## Database 
 Applying our knowledge of ETL process: extract the FIFA csv data from their respective files, transform the datasets by cleaning them up and joining them together, and load the cleaned dataset into a SQL database.We shall create entity relationship diagrams (ERDs), import data into a database, troubleshoot common errors, and create queries that use data to answer questions.
 
 ### Planning Schedule
 
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> 199d140599939bbe478d243fd91aab30b13e28e4
->>>>>>> Femi_final_sqldatabase
 .Design an ERD that will apply to the data.
 .Create and use a SQL database.
 .Import Cleaned and designed ERD diagram tables into pgAdmin.
 .Perform joins queries to create new tables in pgAdmin.
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 199d140599939bbe478d243fd91aab30b13e28e4
->>>>>>> Femi_final_sqldatabase
 # Use the Quick Database Diagrams Tools
 
 The quick DB diagram tools was used the designing the ERB diagram.
 
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> 199d140599939bbe478d243fd91aab30b13e28e4
->>>>>>> Femi_final_sqldatabase
 ![](Resources/FootballFifa.png)
 
 ## Machine Learning 
@@ -203,38 +139,19 @@ That will lead us to categorize this column and proceed with our data Extract Tr
 One of the key requirements in any successful project is a team which communicates and cooperates effectively. Large tasks such as this require everyone to work together to make sure that the client receives the desired outcome on time and without delays. We have put a lot of thought into how during the span of this project we will be communicating and sharing our progress on our respective parts of the project, to this end we created a Discord server. This is where the bulk of our communications takes places as discord is a platform which allows for file sharing, video or voice calling, chat logs and chat history to be saved. This allows us to rapid share files to the whole group and actively talk while working on our tasks. Another method we are using to keep up communication between the team is daily meetings to update us and discuss openly any concerns we face individually or collectively. For example, if one of us finds a specific aspect of the project challenging or cannot complete a task on time, our daily meetings will allow us to redistribute tasks and solve our issues so that we can collectively move forward. We feel that using this method would allow us to “square the circle” between Agile and Waterfall method. In addition, we plan to communicate our work process to the client by providing a log of the discoveries made and plan changes to our project. This will ensure transparency with all parties and will be available in a section of the README. This allows interested parties to keep up with advancements of the project as well as the thoughts of the team.
 
 ## In Closing
-<<<<<<< HEAD
 
 We know that with a well laid plan, we can achieve the desired goal on time, and get the answers to the stack holders. Putting together machine learning, thoughtful insights, story driven data, and a well-organized team, we know that we will be able to deliver on our goal, of finding what indicators to look for, to find the true monetary value of a player.
 
-=======
-<<<<<<< HEAD
-=======
-
-We know that with a well laid plan, we can achieve the desired goal on time, and get the answers to the stack holders. Putting together machine learning, thoughtful insights, story driven data, and a well-organized team, we know that we will be able to deliver on our goal, of finding what indicators to look for, to find the true monetary value of a player.
-
->>>>>>> 199d140599939bbe478d243fd91aab30b13e28e4
->>>>>>> Femi_final_sqldatabase
 We know that with a well laid plan, we can achieve the desired goal on time, and get the answers to the stack holders. Putting together machine learning, thoughtful insights, story driven data, and a well-organized team, we know that we will be able to deliver on our goal, of finding what indicators to look for, to find the true monetary value of a player.
 
 ## Week 2
 
 ## Data Exploration
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-The nature of the data makes it trying at times to properly conceptualize what you are looking at. The task of creating something out of numbers and terms is a process that requires a great deal of thought and consideration. During the proletary process of cleaning and parsing the data, we started to play with it, creating small charts and grouping data to see any possible correlation, or see how the data related to itself in a more visual manner. From this process we grew in our understanding of the data and could really see the story that it was presenting to us. From the onset, our goal remained the same, to determine the value of a soccer player, and from our exploration we started to see specific trends present themselves to us. The first was the correlation between ‘age’ and ‘value’, showing a characteristic positive correlation. Others as well were of great interest to us, from the cleaning process we started to group players positions together to get a better picture of the ‘value’ of specific positions, and to compare them to each other to see what the trends between position and value of the player were, were some positions seen as more valuable or were some seen as less.
-=======
->>>>>>> Femi_final_sqldatabase
 The nature of the data makes it trying at times to properly conceptualize what you are looking at. The task of creating something out of numbers and terms is a process that requires a great deal of thought and consideration. During the proletary process of cleaning and parsing the data, we started to play with it, creating small charts and grouping data to see any possible correlation, or see how the data related to itself in a more visual manner. From this process we grew in our understanding of the data and could really see the story that it was presenting to us. From the onset, our goal re
 
 
 ed the same, to determine the value of a soccer player, and from our exploration we started to see specific trends present themselves to us. The first was the correlation between ‘age’ and ‘value’, showing a characteristic positive correlation. Others as well were of great interest to us, from the cleaning process we started to group players positions together to get a better picture of the ‘value’ of specific positions, and to compare them to each other to see what the trends between position and value of the player were, were some positions seen as more valuable or were some seen as less.
-<<<<<<< HEAD
-=======
->>>>>>> 199d140599939bbe478d243fd91aab30b13e28e4
->>>>>>> Femi_final_sqldatabase
 From this trend in our exploration emerged the thought of the clubs themselves. Were some teams, due to coming from a nation who may not be able to afford to pay their plays as much as a country like France or Spain. This would not neccesarily reflect that the players of that team are of low value rather that they were being paid under the potential market value. This would be an area of interest for our stake holders as if we can find players who over preform for their value, we can give them the appropriate suggestions so that they can more so optimize their team structure.
 
 ## Data ETL
@@ -248,14 +165,6 @@ From here, with a better handle on the structure of our data, we pushed forward 
 Another Machine Learning model is our clustered data. From a simple attempt to see if it would generate some interesting findings, this model has come back with some very promising features. After some attempts, it came back with four very well-defined clusters of data points. While still in the early stages of analysis we are eager to see what we can learn from this to present to the stack holders.
 While our current models are not complete, they are all showing promising results. We know after some more alterations and tweaking we will be able to come backing with some grasping insights into the data, as well as actionable outlooks
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-## Week Two in Closing
-
-We have all made steady and consistent progress on our portions of the project. Already at this stage we have uncovered many interesting features we are eager to present as we polish them into something that is clearer. As work marches on we have all contributed much time and effort into making sure that all the stake holders will be satisfied in the results, as we are confident that our final product will deliver in what our design goals outlined. 
-=======
->>>>>>> Femi_final_sqldatabase
 ## Dashboard
 
 We have included the link to our google slides presentation of our dashboard below. We will be using Tableau to form interactive elements and create our dashboard as we found that there is a way to connect a database and machine learning model to pull data into Tableau, from which we can pull our data and create a simple interface for end-users to access the information they require from a preset up interactive menu which we will further develop with the progression of our project.
@@ -268,13 +177,3 @@ https://docs.google.com/presentation/d/1yKwIa9QqO8fjDFDkO8IffPck5ieb2ZayTHQYr9WR
 
 We have all made steady and consistent progress on our portions of the project. Already at this stage we have uncovered many interesting features we are eager to present as we polish them into something that is clearer. As work marches on we have all contributed much time and effort into making sure that all the stake holders will be satisfied in the results, as we are confident that our final product will deliver in what our design goals outlined. 
 We know that with a well laid plan, we can achieve the desired goal on time, and get the answers to the stack holders. Putting together machine learning, thoughtful insights, story driven data, and a well-organized team, we know that we will be able to deliver on our goal, of finding what indicators to look for, to find the true monetary value of a player.
-
-## Week 3
-
-## The Machine Learning Journey
-
-As we progressed with our machine learning, we had to overcome several challenges, often our data would not cooperate with our machine learning algorithms, or our results would come out just not looking right. After a lot of work, we finally came across a method that would allow us to keep all the data and normalize it. After examining the outputs of the data, what we found was that a lot of the data tended to fit either an exponential or some form of quadratic function. The method we came across to normalize that data was to apply the log function to the target value. Once we did this, we found that the data now normalized fit better into a linear model. From this breakthrough we continued to move forward with our machine learning by selecting which values we would use to train our model. We got rid of certain extreme values which through off our algorithm or values which only applied to a few players. some examples of these removed values where Overall Rating and certain values that pertain to goalkeeping. Removing this allowed use to get a more accurate picture of what skills trended with Value. From here we tested several different types of linear regression just as a ridged model. after looking through all of them we finally gave our model the chance to predict the value and came out with an 88 R-score. From this point on we were confident that this model would be the one we use in the final stages of our project. we then created a final table with the predict value and actual value in one table. We then pickled the Machine learning so that it could be used if needed later on.
-<<<<<<< HEAD
-=======
->>>>>>> 199d140599939bbe478d243fd91aab30b13e28e4
->>>>>>> Femi_final_sqldatabase
