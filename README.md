@@ -1,4 +1,3 @@
-
 # FIFA_PlayerValue_ML - First Segment Project Deliverable 
 
 
@@ -7,6 +6,9 @@
 ### Database Question: Does the performance of a soccer player depends on the market value(euro)
 
 Applying our knowledge of ETL process: extract the FIFA csv data from their respective files, transform the datasets by cleaning them up and joining them together, and load the cleaned dataset into a SQL database.We shall create entity relationship diagrams (ERDs), import data into a database, troubleshoot common errors, and create queries that use data to answer questions.
+
+[Fifa Player Value ML Analysis Presentation.pptx](https://github.com/mshariqnaeem/FIFA_PlayerValue_ML/files/8460848/Fifa.Player.Value.ML.Analysis.Presentation.pptx)
+
 
 #### Performing Exploratory Data Analysis on the data set.
 
@@ -21,7 +23,11 @@ We understand at the end of the day, a team is only as good as its whole, and if
 
 This is of interest for many parties, key of those as previously mentioned, are these large football clubs. Expense can be easily upwards of 200k a year for a single player, and these expenses just like another business expense must be mitigated whenever possible. This is where our program will come it. With our dataset of FIFA players, we will target our variables of interest and create a data-frame out of them. This will then be place on a server, then from their fed into our machine learning algorithm who will parse through the data and generate expected values and compare them to real values. Our null hypothesis would be that there is no correlation between earnings and performance on the field. Our alternative hypothesis would be that there is a correlation, and by using figures we can determine whether or not that correlation is positive or negative. 
 
+## Data Exploration 
 
+While analyzing the original dataset we noticed that much of the data was in formats which would be unreadable by our machine learning model and would not be understandable by stakeholders to whom our final presentation of our results would be made. There were duplicate columns which would be redundant to our model and to our analysis, there were columns which certain players were being measured against when they did not play those positions (ex. a forward being measured with goalkeeper statistics).
+
+These are some of the issues we came across in the original exploratory phase where we decided which columns and pieces of data we would need to remove for our machine learning model to work properly. 
 
 ## Presentation
 
