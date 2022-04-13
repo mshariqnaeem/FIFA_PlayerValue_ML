@@ -235,7 +235,7 @@ After getting the feature value of our machine learning to a high degree, we the
 # Dashboard
 We are using Tableau Public to create visualizations that are easy to read and understand. Tableau helped us to have some insights and questions about our dataset, and at first we used this tool to find insights and share findings with our team to discuss what we could do next, and then make decisions and work on our ETL process.
 After some data transformation, we reloaded the dataset and created more dashboards and stories to provide users with summary statistics and analysis of player’s statistics, such as country of origin, club teams, etc. This is our first interactive component that allows users to view graphs of all Fifa players overall or find summary statistics of one individual player. 
-Our second interactive component connects to the data from our machine learning model and allows users to find the value, predicted value and top attributes that influenced the value for that specific player in the machine learning model. This search engine was created using HTML and Javascript.  
+Our second interactive component connects to the data from our machine learning model and allows users to find the value, predicted value and top attributes that influenced the value for that specific player in the machine learning model. This search engine was created using HTML and Javascript.  To complement the machine learning search engine there is an additional tableau dashboard that shows visualizations of player positions, values and predicted values. 
 ## Interactive Demo 
 Please follow the link below to find a video showing both of our interactive elements. 
 https://drive.google.com/file/d/1m9mVxkuoDX6Mbe2-w6Fzsxj1jPK-bHoB/view?usp=sharing
