@@ -200,7 +200,21 @@ This is of interest for many parties, key of those as previously mentioned, are 
 
 
 ## Where we got data- link to resources folder 
+
+The source of our data is a CSV file which we found from data.world. This CSV file contains roughly 18,000 rows of player data with 90 columns of categories and statistical measures. We have included the link to the original source of the dataset below.
+
+https://data.world/raghav333/fifa-players
+
 ## The systems we used- down to the programming languages 
+
+For the project we had to use a variety of languages and tools to complete our analysis and machine learning model. As there were multiple different tools used we have made a short list.
+
+- Postgres SQL + PgAdmin
+- SQLAlchemy
+- Python + Jupyter Notebook
+- Tableau
+- HTML
+- Pandas
 
 # ETL process and exploration/ analysis on tableau- already written- Marcio
 
