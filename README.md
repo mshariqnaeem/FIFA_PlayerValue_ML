@@ -161,9 +161,13 @@ Another issue we had to resolve in the data is the player value itself. Due to s
 
 ## Machine Learning
 
+We intend to use a Supervised Machine Learning model, specifically a linear regression model. We have a clear research question, and know that by using our historical data of players performance we can uncover if there is a relationship between a player’s value and their performance. Their value in Euros (a continuous variable) would be the target variable or dependent X variable. We’ll analyze many different independent Y variables or features that our model will learn from. The exact variables will be uncovered during our exploratory analysis but some possible examples are stamina, endurance, balance, ball control, etc.  
+
 From here, with a better handle on the structure of our data, we pushed forward with another key aspect of the project, and that is creating a Machine Learning algorithm that would allow us to present insightful and actionable advice for our stake holders. After much effort and tweaking we have successful come of with several models that will allow us to create some powerful projections using the presented information. The first we knew we wanted was a supervised Machine Learning model that created a linear regression. The purpose of this was to find a positive correlation between a chosen value and the players value. The reason for this is that if we can find what is positively correlated with their value, we can then present that to stake holders to show them what to look out for in a player. Furthermore, slack holders when scouting for players can simply feed into the program or look at past test and find what is a key sign that a player is more likely than not to be of value. It can also inform them on already existing players and would allow them to judge if they are over or under their market value as judged by the algorithm. 
 Another Machine Learning model is our clustered data. From a simple attempt to see if it would generate some interesting findings, this model has come back with some very promising features. After some attempts, it came back with four very well-defined clusters of data points. While still in the early stages of analysis we are eager to see what we can learn from this to present to the stack holders.
 While our current models are not complete, they are all showing promising results. We know after some more alterations and tweaking we will be able to come backing with some grasping insights into the data, as well as actionable outlooks
+
+![](Resources/flowchart1.png)
 
 ## Dashboard
 
