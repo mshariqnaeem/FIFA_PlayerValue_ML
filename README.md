@@ -201,6 +201,22 @@ Other Machine Learning points we need to touch on:
 •	Accuracy score
 •	Findings- What we learned from the ML model- in short for basic player their skills ability and attributes are a strong indicator of their value. In our ML model we took the log of the values therefore standardising our outliers, and interestingly their skills and abilities were not a good indicator of value when we took the difference between their predicted value and value. Most likely because of not quantifiable attributes like reputation, prestige, and non game related things like branding.
 
-# Dashboard- we have the tableau done, needs to write about the HTML and JS- Sydney
+# Dashboard
+We are using Tableau Public to create visualizations that are easy to read and understand. Tableau helped us to have some insights and questions about our dataset, and at first we used this tool to find insights and share findings with our team to discuss what we could do next, and then make decisions and work on our ETL process.
+After some data transformation, we reloaded the dataset and created more dashboards and stories to provide users with summary statistics and analysis of player’s statistics, such as country of origin, club teams, etc. This is our first interactive component that allows users to view graphs of all Fifa players overall or find summary statistics of one individual player. 
+Our second interactive component connects to the data from our machine learning model and allows users to find the value, predicted value and top attributes that influenced the value for that specific player in the machine learning model. This search engine was created using HTML and Javascript.  
+## Interactive Demo 
+Please follow the link below to find a video showing both of our interactive elements. 
+https://drive.google.com/file/d/1Ce8qotJHGdBI-ZqqIWpB1QU9cxpQgAvc/view?usp=sharing
 
-# Communication protocol- Done 
+# Communication Protocol
+We will be using 2 main communication methods throughout this project. We have decided to use both Discord to attend meetings to discuss our progress in an agile and Waterfall environment. This will allow us to adapt to any changes throughout the project lifecycle while also managing to follow a linear project path as is typical in a traditional Waterfall methodology. We plan to do this by holding daily meetings to discuss the progress of the project as a whole and if anyone is experiencing any issues, and if there is an issue it can be addressed immediately vs putting the whole project and the rest of the group members on hold until that aspect is completed.
+
+We chose Discord as our method of communication as it allows flexibility to open different channels to post content and manage communications through various breakout channels and groups. Discord also allows for different methods of communication and file sharing and is easily accessible by anyone who is part of the group. We will also be using Slack to communicate any issues that we are experiencing throughout the project with our **Assistant Instructor David Quispe**.
+
+# Submitted by Group 12 
+Ryan Mota 
+Shariq Naeem
+Sydney Kieswetter 
+Marcio Ciano 
+Olufemi Iman
