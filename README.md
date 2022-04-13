@@ -212,14 +212,14 @@ For the project we had to use a variety of languages and tools to complete our a
 **As there were multiple different tools used we have made a short list below**
 
 - Postgres SQL + PgAdmin
-- Python + Jupyter Notebook /
-  numpy
-  matplotlib
-  pandas
-  seaborn
-  sklearn
-  sqlalchemy
-  psycopg2
+- Python + Jupyter Notebook <br />
+  numpy <br />
+  matplotlib <br />
+  pandas <br />
+  seaborn <br />
+  sklearn <br />
+  sqlalchemy <br />
+  psycopg2 <br />
 - Tableau
 - HTML
 
