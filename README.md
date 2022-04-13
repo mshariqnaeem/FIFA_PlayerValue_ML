@@ -219,7 +219,7 @@ After some data transformation, we reloaded the dataset and created more dashboa
 Our second interactive component connects to the data from our machine learning model and allows users to find the value, predicted value and top attributes that influenced the value for that specific player in the machine learning model. This search engine was created using HTML and Javascript.  
 ## Interactive Demo 
 Please follow the link below to find a video showing both of our interactive elements. 
-https://drive.google.com/file/d/1Ce8qotJHGdBI-ZqqIWpB1QU9cxpQgAvc/view?usp=sharing
+https://drive.google.com/file/d/1m9mVxkuoDX6Mbe2-w6Fzsxj1jPK-bHoB/view?usp=sharing
 
 # Communication Protocol
 We will be using 2 main communication methods throughout this project. We have decided to use both Discord to attend meetings to discuss our progress in an agile and Waterfall environment. This will allow us to adapt to any changes throughout the project lifecycle while also managing to follow a linear project path as is typical in a traditional Waterfall methodology. We plan to do this by holding daily meetings to discuss the progress of the project as a whole and if anyone is experiencing any issues, and if there is an issue it can be addressed immediately vs putting the whole project and the rest of the group members on hold until that aspect is completed.
