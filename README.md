@@ -215,8 +215,8 @@ We will be using 2 main communication methods throughout this project. We have d
 We chose Discord as our method of communication as it allows flexibility to open different channels to post content and manage communications through various breakout channels and groups. Discord also allows for different methods of communication and file sharing and is easily accessible by anyone who is part of the group. We will also be using Slack to communicate any issues that we are experiencing throughout the project with our **Assistant Instructor David Quispe**.
 
 # Submitted by Group 12 
-Ryan Mota 
-Shariq Naeem
-Sydney Kieswetter 
-Marcio Ciano 
-Olufemi Iman
+*Ryan Mota 
+*Shariq Naeem
+*Sydney Kieswetter 
+*Marcio Ciano 
+*Olufemi Iman
