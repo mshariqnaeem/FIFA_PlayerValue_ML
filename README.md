@@ -207,14 +207,21 @@ https://data.world/raghav333/fifa-players
 
 ## The systems we used- down to the programming languages 
 
-For the project we had to use a variety of languages and tools to complete our analysis and machine learning model. As there were multiple different tools used we have made a short list.
+For the project we had to use a variety of languages and tools to complete our analysis and machine learning model. 
+
+**As there were multiple different tools used we have made a short list below**
 
 - Postgres SQL + PgAdmin
-- SQLAlchemy
-- Python + Jupyter Notebook
+- Python + Jupyter Notebook/
+  numpy
+  matplotlib
+  pandas
+  seaborn
+  sklearn
+  sqlalchemy
+  psycopg2
 - Tableau
 - HTML
-- Pandas
 
 # ETL process and exploration/ analysis on tableau- already written- Marcio
 
