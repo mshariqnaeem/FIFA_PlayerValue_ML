@@ -206,20 +206,9 @@ This is of interest for many parties, key of those as previously mentioned, are 
 
 The process of getting a machine learning algorithm up and running was a challenge to say the least. We took many paths and not all were fruitful, but nonetheless we got to a point where can confidently say that we have a model which can predict the transformed euro value and what skills would come time that. 
 
-At first, we tried a multitude of models all trying to get an idea of the nature and structure of the data. We tried a cluster model, and several linear graphs to get a handle on the data. From this we could see that the data behaved in manner that we at first didn’t expect. From several projections the data seemed to trend in a more exponential in nature, and so a regular linear regression would not do. After much deliberation we concluded the large disparities between soccer player salaries must be addressed, as with some players, the difference between what their values is could be in the tens if not hundreds of millions. Thus, to tackle this issue, we attempted to standardize the data by apply the log function to the target value to standardize it After we applied this as well as some other tweaking we finally came got to a point where our machine learning algorithm was yielding a rather high accuracy score. 
+At first, we tried a multitude of models all trying to get an idea of the nature and structure of the data. We tried a cluster model, and several linear graphs to get a handle on the data. Our base machine learning model, which just took the integers and decimals from the cleaned data into consideration only yeilded an accuracy score of 63. From this we could see that the data behaved in manner that we at first didn’t expect. From several projections the data seemed to trend in a more exponential in nature, and so a regular linear regression would not do. After much deliberation we concluded the large disparities between soccer player salaries must be addressed, as with some players, the difference between what their values is could be in the tens if not hundreds of millions. Thus, to tackle this issue, we attempted to standardize the data by apply the log function to the target value to standardize it. After we applied this as well as some other tweaking like dropping string values, columns that were the majority null values, etc. we finally got to a point where our machine learning algorithm was yielding a rather high accuracy score above 90. 
 
 After getting the feature value of our machine learning to a high degree, we then removed overshadowed the other features. Finally, after several more tweaks we got to a point where we can take the skills of a player and produce their logged value. While this isn’t exactly what we desire, due to the nature of the data it was the only to proceed to conduct the machine learning, as any other method only yielded poor to no significate results. None the less we are proud of our achievements in we accomplished.
-
-
-## Base model and touch on all the different models we made- we put a lot of work into that 
-Other Machine Learning points we need to touch on: 
-•	Feature Engineering and Selection
-•	How was the data split into training and testing
-•	Why we chose the model
-•	Base model
-•	How the model was trained
-•	Accuracy score
-•	Findings- What we learned from the ML model- in short for basic player their skills ability and attributes are a strong indicator of their value. In our ML model we took the log of the values therefore standardising our outliers, and interestingly their skills and abilities were not a good indicator of value when we took the difference between their predicted value and value. Most likely because of not quantifiable attributes like reputation, prestige, and non game related things like branding.
 
 # Dashboard
 We are using Tableau Public to create visualizations that are easy to read and understand. Tableau helped us to have some insights and questions about our dataset, and at first we used this tool to find insights and share findings with our team to discuss what we could do next, and then make decisions and work on our ETL process.
