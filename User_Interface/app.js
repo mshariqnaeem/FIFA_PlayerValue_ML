@@ -1,7 +1,7 @@
 d3.csv("front_end.csv").then(function (data){
     // this variable is the CSV
     var fifa=data;
-   
+   console.log(fifa)
     // button variable 
     var button=d3.select("#button");
     // form variable 
@@ -18,8 +18,9 @@ d3.csv("front_end.csv").then(function (data){
         d3.event.preventDefault();
         // define user input 
         var inputValue=d3.select("#user-input").property("value");
+        console.log(inputValue)
         // filter based on input value 
-        var filteredPlayers=fifa.filter(fifa =>fifa.Name.includes(inputValue));
+        var filteredPlayers=fifa.filter(fifa =>fifa.player_name.includes(inputValue));
         // populate table 
         for (var i=0; i<filteredPlayers.length; i++){
             d3.select("tbody").insert("tr").html(
