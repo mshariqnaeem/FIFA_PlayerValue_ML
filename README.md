@@ -36,7 +36,7 @@ For the project we had to use a variety of languages and tools to complete our a
 - Tableau
 - HTML
 
-# ETL process and exploration/analysis on tableau
+# ETL Process and Exploration + Analysis on Tableau
 
 ## Data ETL
 
