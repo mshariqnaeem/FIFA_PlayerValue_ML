@@ -38,6 +38,18 @@ For the project we had to use a variety of languages and tools to complete our a
 
 # ETL process and exploration/ analysis on tableau- already written- Marcio
 
+## Data ETL
+
+From the process of data exploration, we as well came upon some challenges with the initial data set. A lot of missing values, duplicate values as well as values that were unnecessary for our current needs. As previously stated, position on the field was a feature what was in interest to us, however we had the issue of people holding several positions at once. This was an issue when we attempted to group them together as there were a multitude of combinations and variations that, while important on the micro level, when attempted to derive the value of a player based on position made in near to impossible. Thus, to over come this challenge we divided the positions into 4 broader, more manageable categories of, “Forwards (FW)”, “Midfielder (MF)”, “Defender (DF)” and “Goalkeeper (GK)”. This will allow us to more closely look at trends in these broader positions as well as compare them with a larger sample, making our findings more meaningful. Furthermore, we also have been using the player ID as an index, allowing us to easily merge and track the transformed or altered values to the originals. This means if later on if we find for example Forwards are of more value, we can trace back our steps and find what specific positions in the broader Forward category are of higher value. Another issue we had to resolve in the data is the player value itself. Due to some outliers, player value was from the tens of thousands to the tens of millions. This discrepancy reeded its head as we attempted to make for informative graphs of the data. The process of fixing this was to take our “euro value” columns and simply divide all the values by 100,000. This would allow us to generate more digestible graphs, as well made prepping the data for our Machine Learning algorithms.
+
+## Use of Tableau
+
+We will be using Tableau throughout this machine learning model to create stories through visualizations. We will display these visualizations through various different means (bar charts, scatter plots, line charts etc.) to show different statistics and how they are relevant in determining the market value of a player.
+After we have completed some data cleaning and transformation, we can make interpretations of which categories of statistics are most important to a player's value through positive correlations. We understand that there may be outliers in our dataset which we will have to take into consideration and complete further analysis by dividing the players by positions, as not all players will have equal values in specific categories.
+Below is an image of a Tableau bar chart of players' overall ratings as per the FIFA ratings. This is just an example of the types of visualizations that we can create with tableau.
+
+After our Machine Learning results, we upload the .csv file and merged it with modified_fifa_data.csv using Player_Id and link both files. Then was possible to make dashboards with Predicted Value Euro filtered by Position.
+
 # Database
 A SQL database was used to take the cleaned data from our ETL process and hold it for the machine learning processing. Additionally, once the machine learning model was run and we had the predicted values the results were added back into our database. Finally, our database holds a summarized table needed for our front-end interaction. This table contains the names, value, predicted values, and top attributes or features from our feature importance test done at the end of the machine learning model. 
 
