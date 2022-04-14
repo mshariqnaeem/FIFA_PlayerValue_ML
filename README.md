@@ -184,8 +184,8 @@ We know that with a well laid plan, we can achieve the desired goal on time, and
 
 
 Structure for final read me- for your heading you may be able to repurpose already written content, have to create your own, and get screenshots/ add images: 
-# Introduction- done/ repurpose- Shariq
-# Introduction- done/ repurpose- Shariq
+
+# Introduction
 ## What is our topic and why we chose 
 
 Our topic is the valuation of Football/Soccer players!
