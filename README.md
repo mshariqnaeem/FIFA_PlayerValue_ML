@@ -186,26 +186,26 @@ We know that with a well laid plan, we can achieve the desired goal on time, and
 Structure for final read me- for your heading you may be able to repurpose already written content, have to create your own, and get screenshots/ add images: 
 
 # Introduction
-## What is our topic and why we chose 
+## What is Our Topic and Why We Chose It  
 
 Our topic is the valuation of Football/Soccer players!
 
 Soccer is the biggest sport in the world. Millions across the world spend time and money in the pursuit of it, whether it be watching it in coffee shops, playing recreationally at their local soccer club, or placing bets in the fantasy leagues. The big question that many larger soccer clubs often ask themselves, knowingly or not, is who best to let go, and who best to keep. This question while never easy, has been made easier by the efforts of our team.
 
-## Questions we aim to answer- and business relation
+## Questions We Aim to Answer and Business Relation
 
 The main question we want to answer is **what categories determine a player's market value?** Is it a statistical category such as speed? is it a non-statistical based category such as nationality? Is it a players potential for growth? These are all factors we need to take into consideration when analyzing our database and creating our machine learning model.
 
 This is of interest for many parties, key of those as previously mentioned, are these large football clubs. Expense can be easily upwards of 200k a year for a single player, and these expenses just like another business expense must be mitigated whenever possible. This is where our program will come it. With our dataset of FIFA players, we will target our variables of interest and create a data-frame out of them. This will then be place on a server, then from their fed into our machine learning algorithm who will parse through the data and generate expected values and compare them to real values. Our null hypothesis would be that there is no correlation between earnings and performance on the field. Our alternative hypothesis would be that there is a correlation, and by using figures we can determine whether or not that correlation is positive or negative.
 
 
-## Where we got data- link to resources folder 
+## Where We Got Data 
 
 The source of our data is a CSV file which we found from data.world. This CSV file contains roughly 18,000 rows of player data with 90 columns of categories and statistical measures. We have included the link to the original source of the dataset below.
 
 https://data.world/raghav333/fifa-players
 
-## The systems we used- down to the programming languages 
+## The Systems We Used 
 
 For the project we had to use a variety of languages and tools to complete our analysis and machine learning model. 
 
