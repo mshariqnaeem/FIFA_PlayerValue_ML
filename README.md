@@ -225,11 +225,12 @@ For the project we had to use a variety of languages and tools to complete our a
 
 # ETL process and exploration/ analysis on tableau- already written- Marcio
 
-# Database- need an updated ERD with- raw, cleaned, ML, front- olu
+# Database
+A SQL database was used to take the cleaned data from our ETL process and hold it for the machine learning processing. Additionally, once the machine learning model was run and we had the predicted values the results were added back into our database. Finally, our database holds a summarized table needed for our front-end interaction. This table contains the names, value, predicted values, and top attributes or features from our feature importance test done at the end of the machine learning model. 
 
 # Machine Learning
 
-We intend to use a Supervised Machine Learning model, specifically a linear regression model. We have a clear research question, and know that by using our historical data of players performance we can uncover if there is a relationship between a player’s value and their performance. Their value in Euros (a continuous variable) would be the target variable or dependent X variable. We’ll analyze many different independent Y variables or features that our model will learn from. The exact variables will be uncovered during our exploratory analysis but some possible examples are stamina, endurance, balance, ball control, etc.  
+We intended to use a Supervised Machine Learning model, specifically a linear regression model. We have a clear research question, and know that by using our historical data of players performance we can uncover if there is a relationship between a player’s value and their performance. Their value in Euros (a continuous variable) would be the target variable or dependent X variable. We’ll analyze many different independent Y variables or features that our model will learn from for example stamina, endurance, balance, ball control, etc.  
 
 The process of getting a machine learning algorithm up and running was a challenge to say the least. We took many paths and not all were fruitful, but nonetheless we got to a point where can confidently say that we have a model which can predict the transformed euro value and what skills would come time that. 
 
