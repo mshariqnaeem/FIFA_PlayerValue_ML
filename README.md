@@ -53,6 +53,9 @@ After our Machine Learning results, we upload the .csv file and merged it with m
 # Database
 A SQL database was used to take the cleaned data from our ETL process and hold it for the machine learning processing. Additionally, once the machine learning model was run and we had the predicted values the results were added back into our database. Finally, our database holds a summarized table needed for our front-end interaction. This table contains the names, value, predicted values, and top attributes or features from our feature importance test done at the end of the machine learning model. 
 
+![image](https://user-images.githubusercontent.com/92459399/163304647-5eaf3278-65fb-4a9e-9fea-e932f5afd355.png)
+
+
 # Machine Learning
 
 We intended to use a Supervised Machine Learning model, specifically a linear regression model. We have a clear research question, and know that by using our historical data of players performance we can uncover if there is a relationship between a player’s value and their performance. Their value in Euros (a continuous variable) would be the target variable or dependent X variable. We’ll analyze many different independent Y variables or features that our model will learn from for example stamina, endurance, balance, ball control, etc.  
