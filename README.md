@@ -255,7 +255,7 @@ We chose Discord as our method of communication as it allows flexibility to open
 
 # Presentation 
 We have included the Google Slides link below. Spe3aking notes can befound below each slide. 
-https://docs.google.com/presentation/d/1SbNR2lV_6iaGY7u_Mp5DBHGwq5s0UTUp8kjGCQ9TE2E/edit#slide=id.g12400a08930_3_0
+https://docs.google.com/presentation/d/1SbNR2lV_6iaGY7u_Mp5DBHGwq5s0UTUp8kjGCQ9TE2E/edit#slide=id.g123d2660db3_0_0
 
 # Submitted by Group 12 
 * Ryan Mota 
