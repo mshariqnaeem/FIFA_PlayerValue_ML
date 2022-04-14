@@ -13,3 +13,10 @@ ORDER BY mf.dept_no;
 
 
 ALTER TABLE fifa_cleaned RENAME id TO Player_Id;
+
+
+SELECT * FROM public."Machine_Learning_Output"
+ORDER BY "Player_Id" ASC LIMIT 100;
+
+SELECT * FROM public.fifa_cleaned
+ORDER BY player_id ASC LIMIT 100
